@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct LifesumApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeView()
+            
         }
     }
 }
