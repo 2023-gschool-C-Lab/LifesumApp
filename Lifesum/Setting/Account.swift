@@ -31,8 +31,11 @@ struct Account: View {
                     Text("Invite friends")
                         .padding(.leading, 23)
                     Spacer()
-                        .frame(width: 240)
+                        .frame(width: 229)
                     Image(systemName: "person.fill")
+                        .foregroundColor(Color(hex: 0xC2C1C2))
+                        .padding(.trailing, 15)
+
 
                     
                 }
@@ -51,11 +54,12 @@ struct Account: View {
                         .padding(.leading, 23)
                     
                     Spacer()
-                        .frame(width: 210)
+                        .frame(width: 195)
                     Image(systemName: "gearshape.fill")
-                        
+                        .foregroundColor(Color(hex: 0xC2C1C2))
+                        .padding(.trailing, 15)
 
-                    
+
                 }
 
             }
@@ -71,9 +75,11 @@ struct Account: View {
                     Text("Account Type")
                         .padding(.leading, 23)
                     Spacer()
-                        .frame(width: 210)
+                        .frame(width: 200)
                     
                     Text("Free")
+                        .padding(.trailing, 15)
+
                 }
 
             }
